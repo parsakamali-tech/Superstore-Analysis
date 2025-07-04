@@ -40,50 +40,46 @@ This is a beginner-friendly **Data Engineering & SQL Analytics** project that fo
 customers(customer_id [PK], customer_name, segment, city, state, country)
 products(product_id [PK], product_name, category, sub_category, price)
 orders(order_id [PK], order_date, ship_date, customer_id [FK], product_id [FK], quantity, sales, profit)
-See schema.sql
+See sql/schema.sql
 
----
 
-## Key Questions Answered with SQL
+ Key Business Questions (SQL)
 
-- SQL queries are in analysis.sql
-    1. What are the total sales and profits? What is our profit margin?
+ SQL Queries are written in sql/analysis.sql
 
-    2. Have monthly sales trends been growing?
+    What are the total sales and profits? What is our profit margin?
 
-    3. When did we have the highest monthly sales?
+    Have monthly sales trends been growing?
 
-    4. Which product categories bring the most revenue and profit?
+    When did we have the highest monthly sales?
 
-    5. Which states are most profitable?
+    Which product categories generate the most revenue and profit?
 
-    6. Are there products with high sales but low profit margins?
+    Which states are the most profitable?
 
-    7. How long does it take to ship orders, by category?
+    Are there products with high sales but low profit margins?
 
----
+    How long does it take to ship orders, by category?
 
-## Visualizations & Analysis
+ Visualizations & Analysis
 
-See analysis.ipynb
+ View in notebook/analysis.ipynb
 
 Sample charts include:
 
-    - Line plot of monthly sales trend
+     Line chart: Monthly sales trend
 
-    - Bar chart of sales & profit by category
+     Grouped bar chart: Sales & profit by category
 
-    - Horizontal bar chart of average shipping delays by category
+     Horizontal bar chart: Average shipping delay by category
 
-    - Scatter plot: High sales, low profit products
+     Scatter plot: High-sales, low-margin products
 
-    - Horizontal bar chart of profit by state
+     Bar chart: Profit by state
 
-All charts are saved in the plots/ folder
+All output images are saved in the plots/ folder.
 
----
-
-## Folder Structure
+Folder Structure
 
 Superstore-Analysis/
 ├── data/
@@ -102,24 +98,19 @@ Superstore-Analysis/
 ├── requirements.txt
 └── README.md
 
----
+Requirements
 
-## Requirements
+To install the required packages:
 
-Install the necessary Python packages:
-    ```bash pip install -r requirements.txt```
+pip install -r requirements.txt
 
----
-
-## Author
+Author
 
 Parsa Kamali Shahry
 Beginner Data Engineer | Python & SQL Enthusiast
-LinkedIn 
+LinkedIn https://www.linkedin.com/in/parsa-kamali-243934305/
 
----
-
-## Next Steps
+Next Steps
 
     Convert this analysis into a pipeline (ETL-style)
 
