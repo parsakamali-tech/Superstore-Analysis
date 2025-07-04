@@ -115,7 +115,7 @@ Install the necessary Python packages:
 
 Parsa Kamali Shahry
 Beginner Data Engineer | Python & SQL Enthusiast
-LinkedIn 
+LinkedIn https://www.linkedin.com/in/parsa-kamali-243934305/
 
 ---
 
